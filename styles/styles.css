@@ -38,7 +38,6 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
-    text-align: center;
     
 }
 
@@ -53,7 +52,8 @@ main img{
     height: auto;
 }
 
-p {padding: 0;}
+p {padding: 0;
+}
 
 footer {
     margin-top: 15px;

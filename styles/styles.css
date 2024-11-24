@@ -1,87 +1,89 @@
-:root{
-    --heading-background-color: darkblue;
-    --text-align: center;
-    --display: block;
-    --padding: 20px;
-    --width-image: 200px;
 
-
-}
-
-
-nav{
-    background-color:   var(--heading-background-color);
+nav {
+    background-color: #02779B;
     padding: 10px;
-    text-align: var(--text-align);
-
-    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-nav a{
+nav a {
+    background-color: #02779B;
     color: white;
-    display: var(--display);
-    padding: 20px;
-
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
-    color: var(--heading-background-color);
-    text-align: var(--text-align)
+    color: darkblue;
+
 }
 
-img{
+main img {
     width: 150px;
-    height: auto;
-    border: 1px solid black; 
+    height: 10x solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 10px;
+}
+
+p {
+    margin: 1rem;
+}
+
+ main{
+    max-width: 840px;
+}
+
+aside{
+    position: relative;
+    width: 20em;
+    margin: 3em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
     
+}
+
+aside h2{
+    position: absolute;
+    top: 5px;
+    left: 90px;
+}
+
+aside img{
+    width: 270px;
+    height: auto;
 }
 
 p{
-    padding: 10px;
+    padding: 0;
+    font-style: italic;
 }
 
-main{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: var(--padding);
-    text-align: var(--text-align);
-}
-
-
-aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0, 0, 0, 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: var(--text-align);
-    
-}
-
-
-aside img {
-    width: var(--width-image);
-    height: auto;
-
-}
-
-main img{
-    width: var(--width-image);
-    height: auto;
-    border:#000;
-    display: var(--display);  
-    margin-left: auto; 
-    margin-right: auto;
-}
-
-p {padding: 0;
-}
-
-footer {
+footer{
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: var(--text-align);
+    text-align: center;
+}
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* class selector*/
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }

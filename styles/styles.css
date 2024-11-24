@@ -1,21 +1,32 @@
+:root{
+    --heading-background-color: darkblue;
+    --text-align: center;
+    --display: block;
+    --padding: 20px;
+    --width-image: 200px;
+
+
+}
+
+
 nav{
-    background-color: darkblue;
+    background-color:   var(--heading-background-color);
     padding: 10px;
-    text-align: center;
+    text-align: var(--text-align);
 
     
 }
 
 nav a{
     color: white;
-    display: block;
+    display: var(--display);
     padding: 20px;
 
 }
 
 h1 {
-    color: darkblue;
-    text-align: center;
+    color: var(--heading-background-color);
+    text-align: var(--text-align)
 }
 
 img{
@@ -33,9 +44,9 @@ p{
 
 main{
     max-width: 800px;
-    margin: 0 auto; /*it's better with this layout*/
-    padding: 20px;
-    text-align: center;
+    margin: 0 auto;
+    padding: var(--padding);
+    text-align: var(--text-align);
 }
 
 
@@ -46,22 +57,22 @@ aside{
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
     
 }
 
 
 aside img {
-    width: 200px;
+    width: var(--width-image);
     height: auto;
 
 }
 
 main img{
-    width: 200px;
+    width: var(--width-image);
     height: auto;
     border:#000;
-    display: block;  
+    display: var(--display);  
     margin-left: auto; 
     margin-right: auto;
 }
@@ -72,5 +83,5 @@ p {padding: 0;
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
 }

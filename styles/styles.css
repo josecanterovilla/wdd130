@@ -40,18 +40,18 @@ p {
 
 aside{
     position: relative;
-    width: 20em;
+    width: 100%; /* here was made a change*/
     margin: 3em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(21, 0, 0, 0.2);
     padding: 1em;
-    background-color: #eee;
-    color: #333;
+    background-color: #000000;
+    color: #1f0a0a;
     text-align: center;
     
 }
 
 aside h2{
-    position: absolute;
+    /*position: absolute;*/
     top: 5px;
     left: 90px;
 }

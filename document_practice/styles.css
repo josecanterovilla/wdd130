@@ -2,16 +2,16 @@
 
 
 
-@font-face {
-    font-family: 'rock_saltregular';
-    src: url('../fonts/rocksalt-webfont.woff2') format('woff2'),
-         url('../fonts/rocksalt-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: 200px;
 
-}
 
 h1 {
-    font-family: rock_saltregular, "Bradley Hand", cursive;
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 900;
+    color: black;
 }
 
+body {
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}

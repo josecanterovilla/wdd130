@@ -96,6 +96,12 @@ body {
   font-style: normal;
 }
 
+section img {
+    width: 30%; 
+    height: 30%; 
+    object-fit: cover; /* optional*/
+}
+
 a {text-decoration: none;}
 
 

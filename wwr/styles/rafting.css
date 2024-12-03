@@ -91,7 +91,7 @@ nav a {
 body {
     
   font-family: "Poppins", sans-serif;
-  font-weight: 10px;
+
   font-style: normal;
 }
 
@@ -106,7 +106,6 @@ a {text-decoration: none;}
 
 footer{
     font-family: "Poppins", sans-serif;
-    font-weight: 10px;
     margin-top: 15px;
     border-top: 4px solid #1f92d4;
     text-align: center;

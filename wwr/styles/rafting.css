@@ -7,6 +7,14 @@
     text-align: center;
 }
 
+
+body {
+    
+    font-family: "Poppins", sans-serif;
+  
+    font-style: normal;
+  }
+  
 nav {
     background-color: #02779B;
     padding: 10px;
@@ -27,7 +35,7 @@ nav a {
 .hero {
     position: relative;
     width: 100%;
-    height: 60vh; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,26 +43,26 @@ nav a {
 }
 
 .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative; 
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Ensures the image stays behind the content */
+    height: 80vh; 
+    background-image: url('../images/background_image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1; /
 }
 
 /* Style for h1 inside the hero section */
 .hero h1 {
     position: absolute;
     top: 0; /* Adjust the vertical position if needed */
-    left: 0;
     width: 100%;
     text-align: center;
     color: white;
-    padding: 20px; /* Spacing around the title */
-    background-color: rgba(3, 3, 3, 0.5); /* Semi-transparent stripe (adjust as desired) */
-    font-size: 3rem; /* Font size */
+    padding: 10px; /* Spacing around the title */
+    background-color: rgba(2, 1, 1, 0.5); /* Semi-transparent stripe (adjust as desired) */
+    font-size: 2.5rem; /* Font size */
     font-family: "Cabin Sketch", sans-serif;
 }
 
@@ -73,18 +81,21 @@ nav a {
 }
 
 /* Image inside the article (aligned to the right) */
-.hero article .inner-image {
-    width: 150px; /* Adjust the size of the image */
+.inner-image {
+    width: 140px; /* Adjust the size of the image */
     margin-left: 10px; /* Spacing between the text and the image */
     border-radius: 5px; /* Rounded borders */
-    order: 2; /* Moves the image to the right */
+    order: 2;
+    float: right;
+    display: inline-block; /* Moves the image to the right */
 }
 
 /* Article text (aligned to the left) */
 .hero article p {
     flex: auto; /* Allows the text to occupy the remaining space */
     margin: auto;
-    order: 1; /* Ensures the text stays on the left */
+    order: 1;
+    float: right; /* Ensures the text stays on the left */
 }
 
 

@@ -70,32 +70,30 @@ nav a {
 .hero article {
     background-color: rgba(39, 54, 46, 0.6); /* Semi-transparent blue background */
     color: rgb(224, 222, 222); /* White text */
-    padding: 20px;
+    padding: 1px;
     border-radius: 10px; /* Rounded borders */
     display: flex;
-    align-items: center;
     max-width: 90%; /* Limits the width of the article */
-    margin: auto;
+    margin: 10px;
     font-family: "Poppins", sans-serif;
-    justify-content: space-between;
+    
 }
 
 /* Image inside the article (aligned to the right) */
 .inner-image {
-    width: 140px; /* Adjust the size of the image */
+    width: 200px; /* Adjust the size of the image */
     margin-left: 10px; /* Spacing between the text and the image */
-    border-radius: 5px; /* Rounded borders */
+    border-radius: 10px; /* Rounded borders */
     order: 2;
-    
-    display: inline-block; /* Moves the image to the right */
+    /* Moves the image to the right */
 }
 
 /* Article text (aligned to the left) */
 .hero article p {
-    flex: auto; /* Allows the text to occupy the remaining space */
-    margin: auto;
-    order: 1;
-    float: right; /* Ensures the text stays on the left */
+    flex: 10px; /* Allows the text to occupy the remaining space */
+    margin: 10px;
+    order: 1;  /* Ensures the text stays on the left */
+
 }
 
 

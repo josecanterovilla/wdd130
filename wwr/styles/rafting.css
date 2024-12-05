@@ -17,6 +17,8 @@ header{
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: #176b84;
+    border-bottom: 1px solid #060505;
+    margin-bottom: 1px;
 }
 nav {
     display: flex;
@@ -95,12 +97,45 @@ nav a {
 
 }
 
+.history{
+ 
+    
+}
+    .title-history{
+        font-size: 50px;
+        
+     
+    }
 
+    .section-p-img{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        align-items: center;
+    }
 
-section img {
-    width: 30%; 
-    height: 30%; 
-    object-fit: cover; /* optional*/
+    .history-image{
+        justify-self: center;
+        padding: 1px
+    }
+    .section-p{
+        
+        text-align: justify;
+        padding: 1px;
+        margin: 5px;
+        justify-content: right;
+       
+    }
+
+.section-figure {
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+
+}  
+.figure-img {
+    width: 220px; 
+    height: 160px;
+  /* optional*/
 }
 
 a {text-decoration: none;}

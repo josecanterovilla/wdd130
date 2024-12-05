@@ -97,10 +97,7 @@ nav a {
 
 }
 
-.history{
- 
-    
-}
+
     .title-history{
         font-size: 50px;
         
@@ -109,13 +106,14 @@ nav a {
 
     .section-p-img{
         display: grid;
-        grid-template-columns: 30% 40% 30%;
+        grid-template-columns: 1fr 1.5fr 1fr;
         align-items: center;
     }
 
     .history-image{
         justify-self: center;
-        padding: 1px
+        padding: 1px;
+        width: 350px;
     }
     .section-p{
         
@@ -128,7 +126,7 @@ nav a {
 
 .section-figure {
     display: flex;
-    justify-items: space-around;
+    
     align-items: center;
 
 }  

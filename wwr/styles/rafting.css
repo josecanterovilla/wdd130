@@ -9,25 +9,24 @@
 
 
 body {
-    
     font-family: "Poppins", sans-serif;
-  
     font-style: normal;
   }
-  
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #176b84;
+}
 nav {
-    background-color: #02779B;
-    padding: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 nav a {
-    background-color: #02779B;
     color: white;
-    display: block;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -97,12 +96,6 @@ nav a {
 }
 
 
-body {
-    
-  font-family: "Poppins", sans-serif;
-
-  font-style: normal;
-}
 
 section img {
     width: 30%; 

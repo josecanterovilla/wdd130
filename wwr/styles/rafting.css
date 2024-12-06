@@ -106,34 +106,37 @@ nav a {
 
     .section-p-img{
         display: grid;
-        grid-template-columns: 1fr 1.5fr 1fr;
+        grid-template-columns: 2fr 1.5fr 2fr;
         align-items: center;
     }
 
     .history-image{
         justify-self: center;
-        padding: 1px;
+        
         width: 350px;
     }
     .section-p{
         
         text-align: justify;
         padding: 1px;
-        margin: 5px;
+        margin: 1px;
         justify-content: right;
        
     }
 
 .section-figure {
     display: flex;
-    
-    align-items: center;
+    align-content: space-around;
+    justify-items: center;
+ 
+
 
 }  
 .figure-img {
-    width: 220px; 
-    height: 160px;
-  /* optional*/
+    display: flex;
+    width: 225px; 
+    height: 180px;
+  
 }
 
 a {text-decoration: none;}
@@ -144,6 +147,7 @@ footer{
     margin-top: 15px;
     border-top: 4px solid #1f92d4;
     text-align: center;
+    justify-items: space-around;
   }
 
   @media print { .ms-editor-squiggles-container { display:none !important; } }

@@ -3,10 +3,7 @@
     --text-align: center;
 }
 
-* {
-    text-align: center;
-}
-
+* {text-align: center;}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -126,16 +123,21 @@ nav a {
 
 .section-figure {
     display: flex;
-    align-content: space-around;
-    justify-items: center;
+    align-content: right;
+}
+  
  
+.fig-title{
+    text-align: center;
+
+}
 
 
-}  
 .figure-img {
     display: flex;
-    width: 225px; 
-    height: 180px;
+    width: 295px; 
+    height: 210px;
+   
   
 }
 
@@ -146,8 +148,14 @@ footer{
     font-family: "Poppins", sans-serif;
     margin-top: 15px;
     border-top: 4px solid #1f92d4;
+}
+
+.footer-tittle {
     text-align: center;
-    justify-items: space-around;
-  }
+}
+   
+.social-links{
+    justify-content: right;
+}
 
   @media print { .ms-editor-squiggles-container { display:none !important; } }

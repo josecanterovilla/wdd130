@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-element.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+
+<main>
+    <div class="wrapper">
+      <form>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <label for="color">What is your favorite color?</label>
+          <input type="text" id="color" name="color">
+        </div>
+        <div>
+          <label for="photo">Photo</label>
+          <input type="file" id="photo" name="photo">
+          <label for="color">What is your favorite color?</label>
+          <input type="text" id="color" name="color">
+          <label for="comment">Comment</label>
+          <textarea id="comment" name="comment"></textarea>
+          <label for="color">Color</label>
+          <select id="color" name="color">
+          <option value="orange">Orange</option>
+          <option value="pink">Pink</option>
+</select>
+        </div>
+        <button>Save</button>
+      </form>
+    </div>
+  </main>
+
+  <main>
+    <div class="wrapper">
+      <form>
+        <div>
+          <input type="checkbox" id="subscribe" name="subscribe" value="web.dev">
+      <label for="subscribe">Subscribe to web.dev?</label>
+        </div>
+        <button>Save setting</button>
+      </form>
+    </div>
+  </main>
+
+  <main>
+    <div class="wrapper">
+      <form action="https://codepen.io/web-dot-dev/pen/7225931596b7eeafc448ad55d9c980fd" target="-blank">
+        <div>
+          <label for="mountain">What is the highest mountain in Africa?</label>
+          <select id="mountain" name="mountain">
+            <option value="everest">Mount Everest</option>
+            <option value="kilimanjaro">Mount Kilimanjaro</option>
+            <option value="meru">Mount Meru</option>
+          </select>
+        </div>
+        <button>Save</button>
+      </form>
+    </div>
+  </main>
+
+  <main>
+    <div class="wrapper">
+      <form>
+        <div>
+          <label for="color">What is your favorite color?</label>
+          <select id="color" name="color">
+    <option value="orange">Orange</option>
+    <option selected value="pink">Pink</option>
+  </select>
+        </div>
+        <button>Save</button>
+      </form>
+    </div>
+  </main>
+
+  <fieldset>
+    <legend>What is your favorite web technology</legend>
+
+    <label for="html">HTML</label>
+    <input type="radio" name="webfeature" value="html" id="html">
+
+    <label for="css">CSS</label>
+    <input type="radio" name="webfeature" value="css" id="css">
+</fieldset>
+
+<button>submit</button>
+<input type="submit" value="hola">
+for='color' on the <label>, and id='color' on the <input>.

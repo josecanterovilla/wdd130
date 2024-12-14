@@ -56,6 +56,9 @@ h2 {
     font-size: 40px;
 }
 
+map {
+    text-decoration: none;
+}
 /* FORM */
 .form-item {
     display: grid;

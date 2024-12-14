@@ -56,8 +56,10 @@ h2 {
     font-size: 40px;
 }
 
-map {
-    text-decoration: none;
+.map {
+   
+    width:600px; 
+    height:400px;
 }
 /* FORM */
 .form-item {

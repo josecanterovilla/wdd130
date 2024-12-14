@@ -125,8 +125,13 @@ input, select, textarea{
 
 .column1{
     display: grid;
-
 }
+
+
+.column2 {
+    grid-template-columns: 1fr ;   
+}
+
 textarea {
     text-align: left;
     margin-top: 10px;

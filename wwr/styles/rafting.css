@@ -161,3 +161,138 @@ footer{
 }
 
   @media print { .ms-editor-squiggles-container { display:none !important; } }
+
+
+  /* CONTACT */
+.happy-employee-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 25px;
+}
+.figure-img-employee {
+    border-radius: 10%;
+}
+  
+.fig-tittle {
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #36944a;
+}
+
+h1 {
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 40px;
+}
+
+.map {
+   
+    width:600px; 
+    height:400px;
+}
+/* FORM */
+.form-item {
+    display: grid;
+
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+.radio label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.radio input[type="radio"] {
+    width: 25px;
+    height: 25px; 
+
+}
+
+.contact-information {
+    text-align: left;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0/ 0.1);
+    border-radius: 10px 10px 10px;
+    background-color: #b0e7eb;
+    display: grid;
+}
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 2rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 2.3em;
+    font-family: "Cabin Sketch", sans-serif;
+}
+
+form{
+    padding: 1rem;
+}
+
+
+label{
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+
+}
+
+.column1{
+    display: grid;
+}
+
+
+.column2 {
+    grid-template-columns: 1fr ;   
+}
+
+textarea {
+    text-align: left;
+    margin-top: 10px;
+}
+button{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Whitewater Project is dedicated to showcasing our company and its mission. Through this website, we aim to introduce visitors.">
+    <meta name="description" content="The porpuse of the page is for making contact with the company agents">
     <meta name="author" content="Jose Cantero Villa">
-    <title> Rafting Company White Water  "About Us"</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -22,7 +22,83 @@
         </nav>
     </header>
     <main>
-        <div class="background-image">
+        <h1>Contact Us</h1>
+
+
+        <h2>Send Us a Message</h2>
+
+    <p>San Fabián - Camping Los Yugos</p>
+    <p>Phone +56964585091</p>
+    <p>Email: <a href="josevicente2806@gmail.com">josevicente2806@gmail.com</a></p>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1601.913499903767!2d-71.53525910978381!3d-36.58238658498904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scl!4v1734186841663!5m2!1sen!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <section class="happy-employee-section">
+        <figure>
+            <img class="figure-img-employee" src=" images-contact/happy-employee-1.jpg" alt="employee-1">
+            <figcaption class = "fig-tittle">Pedro - Turist Guide</figcaption>
+        </figure>
+        <figure>
+            <img class="figure-img-employee" src="images-contact/happy-employee-2.jpg" alt="employee-2">
+            <figcaption class = "fig-tittle">Susana - First Aid</figcaption>
+        </figure>
+        <figure>
+            <img class="figure-img-employee" src="images-contact/happy-employee-3.jpg" alt="employee-3">
+            <figcaption class = "fig-tittle">Samuel - Rescuer</figcaption>
+        </figure>
+    </section>
+
+    <form>
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fullname" id="fullname">
+            </div>
+            <div class="form-item column2">
+            <label for="email">Email:</label>
+            <input type="email" name="useremail" id="useremail">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>The Purpose of Contacting</legend>
+            <div class="radio">
+                <label for="general-inquiry">
+                    <input type="radio" name="inquiry" value="general-inquiry" id="general-inquiry">
+                    General Inquiry
+                </label>
+            
+                <label for="reservacion-question">
+                    <input type="radio" name="inquiry" value="reservacion-question" id="reservacion-question">
+                    Reservation Question
+                </label>
+            
+                <label for="website-suggestion">
+                    <input type="radio" name="inquiry" value="website-suggestion" id="website-suggestion">
+                    Website Suggestion
+                </label>
+            </div>
+            
+
+            <div class="column1">
+                <label for="feedback"> Type Your Message:</label>
+                <textarea id="feedback" name="feedback"  rows="4" placeholder="Message here"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="subscribe" name="subscribe" value="web.dev">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+              </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+
+
+
+
+        <!-- <div class="background-image">
             <div class ="hero">
                 <h1>WHITEWATER RAFTING</h1>
                 
@@ -65,7 +141,7 @@
                     <figcaption class = "fig-title">Sunset Horizon</figcaption>
                 </figure>
             </section>
-        </section>
+        </section> -->
     </main>
     <footer>
         <p class = "footer-tittle">© 2024 - José Cantero - WHITEWATER RAFTING </p>

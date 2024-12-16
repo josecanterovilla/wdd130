@@ -169,6 +169,7 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin: 25px;
+    
 }
 .figure-img-employee {
     border-radius: 10%;
@@ -178,6 +179,7 @@ footer{
     font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #36944a;
+    font-family: "Cabin Sketch", sans-serif;
 }
 
 h1 {
@@ -288,6 +290,7 @@ button{
     border-radius: 0.5rem;
     padding: 0.75rem;
     font-size: 1.2rem;
+    font-family: "Cabin Sketch", sans-serif;
 
 }
 
